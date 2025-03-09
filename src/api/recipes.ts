@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Recipe, RecipeFormData } from "../types/Recipe";
 
-export const API_URL = "http://localhost:3000";
+export const API_URL = "https://b387-2401-4900-8840-c1d5-99c4-7983-2dc-6d8c.ngrok-free.app/recipes";
 
 export const getAllRecipes = async (): Promise<Recipe[]> => {
   const response = await axios.get(`${API_URL}/recipes`);
