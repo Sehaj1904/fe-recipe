@@ -1,0 +1,87 @@
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.category {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.categoryTitle {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e74c3c;
+}
+
+.recipeList {
+  display: grid;
+  gap: 16px;
+}
+.recipeCard {
+  background: #f8f9fa;
+  border-radius: 6px;
+  padding: 16px;
+  cursor: move;
+  transition: all 0.2s ease;
+}
+
+.recipeCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dragging {
+  opacity: 0.6;
+  background: #e9ecef;
+}
+
+.surpriseButton {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: background 0.2s ease;
+}
+
+.surpriseButton:hover {
+  background: #c0392b;
+}
+
+.error {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.error p {
+  color: #e74c3c;
+  margin-bottom: 16px;
+}
+
+.retryButton {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.retryButton:hover {
+  background: #2980b9;
+}
